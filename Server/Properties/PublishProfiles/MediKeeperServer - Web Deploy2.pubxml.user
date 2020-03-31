@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApTNim5K+Cka516Hf5LuW6wAAAAACAAAAAAAQZgAAAAEAACAAAABEEsmglbky3g2uIRFjz9UtSUjXa0+maGaqQps3NIhYZgAAAAAOgAAAAAIAACAAAAC5opJvIQkTjnwe1J++jZnb6koS1MPsemEj+j+JYz4xPoAAAAAWv0iVqWQy3xXTQDJt+BjQ9quZYrgMwqNvVK4bbqd6PTLacMfq3JdJR3EaYILBJ1xvdDDpmHQ2D0nIgYSkp8Hy3nb02/5OX6HwURNG3KK9vlhBrh4p24AJQmKL6abQOyda9TDW9YXesyFjSkFqQ5F7/Fs94QZq/rnHAGXwnYcclUAAAAAjV5La4TCC8jpm3ixkDr6CxPGP96D0wWYU31BpDWpL8Ev5WGC1htw4ZLeqGdzJ12XTrUjKX3yAinfpnd6AtaD6</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MediKeeperContext">
+      <Value>Data Source=35.239.61.132%3bUser ID=sqlserver%3bPassword=3ffMrA70o1t4FcxH%3bConnect Timeout=30%3bEncrypt=False%3bTrustServerCertificate=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False%3binitial Catalog=Medikeeper</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
